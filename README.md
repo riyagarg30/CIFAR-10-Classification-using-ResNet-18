@@ -15,6 +15,7 @@ A deep learning project using a custom **ResNet-18** with **Squeeze-and-Excitati
 | `report.pdf`               | Project write-up with architecture, results, and analysis   |
 | `cifar_test_nolabel.pkl`   | Unlabeled CIFAR-10 test images (used in inference section)  |
 | `prediction_csv/`          | Output CSV file with predicted labels                       |
+| `requirements.txt`         | Requirements file for the project
 
 ---
 
@@ -52,6 +53,24 @@ jupyter notebook resnet18_se_cifar10.ipynb
 ```
 
 > 🔑 Replace your `wandb.login(key=...)` key in the notebook if needed.
+
+---
+
+### Optional Extras (if needed):
+
+If you’re running this on Jupyter locally:
+
+```txt
+notebook>=6.5
+```
+
+---
+
+### 📦 How to use:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
